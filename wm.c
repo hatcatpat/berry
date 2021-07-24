@@ -1719,12 +1719,13 @@ static void refresh_config(void) {
 }
 
 static void client_resize_absolute(struct client *c, int w, int h) {
-  w = nearest(w, conf.r_step);
-  h = nearest(h, conf.r_step);
   int dw = w;
   int dh = h;
   int dec_w = w;
   int dec_h = h;
+
+  w = nearest(w, conf.r_step);
+  h = nearest(h, conf.r_step);
 
   if (c->decorated) {
     dw = w - (2 * conf.i_width) - (2 * conf.b_width);

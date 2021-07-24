@@ -13,4 +13,6 @@
 int asprintf(char **buf, const char *fmt, ...);
 int vasprintf(char **buf, const char *fmt, va_list args);
 
+int nearest(const int x, const int n);
+
 #endif

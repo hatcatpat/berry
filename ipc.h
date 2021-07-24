@@ -25,7 +25,9 @@ enum IPCCommand
     IPCInnerBorderWidth,
     IPCTitleHeight,
     IPCSwitchWorkspace,
+    IPCSwitchWorkspaceRelative,
     IPCSendWorkspace,
+    IPCSendWorkspaceRelative,
     IPCFullscreen,
     IPCFullscreenState,
     IPCFullscreenRemoveDec,
@@ -56,6 +58,8 @@ enum IPCCommand
     IPCPointerInterval,
     IPCFocusFollowsPointer,
     IPCWarpPointer,
+    IPCMoveStep,
+    IPCResizeStep,
     IPCLast
 };
 

@@ -34,3 +34,5 @@ vasprintf(char **buf, const char *fmt, va_list args)
 	size = vsprintf(*buf, fmt, args);
 	return size;
 }
+
+int nearest(const int x, const int n) { return x - x % n; }

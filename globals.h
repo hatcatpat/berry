@@ -14,7 +14,7 @@
 #endif
 
 #define MAXLEN 256
-#define MINIMUM_DIM 30
+#define MINIMUM_DIM 60
 #define TITLE_X_OFFSET 5
 #define DEFAULT_ALPHA 0xffff
 
